@@ -1,0 +1,32 @@
+{
+  "name": "1562_example",
+  "version": "0.1.0",
+  "description": "",
+  "author": "",
+  "scripts": {
+    "build": "node build.js"
+  },
+  "dependencies": {
+    "graphql-modules": "^1.2.1",
+    "graphql-tag": "^2.10.1",
+    "graphql": "^14.7.0",
+    "reflect-metadata": "^0.1.13"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.6.4",
+    "@babel/core": "^7.9.0",
+    "@babel/node": "^7.8.7",
+    "@babel/plugin-proposal-class-properties": "^7.5.5",
+    "@babel/plugin-proposal-decorators": "^7.6.0",
+    "@babel/plugin-proposal-object-rest-spread": "^7.6.2",
+    "@babel/plugin-transform-runtime": "^7.6.2",
+    "@babel/polyfill": "^7.6.0",
+    "@babel/preset-env": "^7.6.3",
+    "@babel/preset-typescript": "^7.10.4",
+    "babel-eslint": "^10.0.3",
+    "babel-loader": "8.0.6",
+    "babel-plugin-parameter-decorator": "^1.0.10",
+    "babel-plugin-transform-export-extensions": "^6.22.0",
+    "babel-preset-latest-node": "^3.2.1"
+  }
+}

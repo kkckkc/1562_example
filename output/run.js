@@ -1,0 +1,11 @@
+"use strict";
+
+var _graphqlModules = require("graphql-modules");
+
+var _test = require("./test");
+
+const m = (0, _graphqlModules.createModule)(_test.module);
+const application = (0, _graphqlModules.createApplication)({
+  modules: [m]
+});
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uL3J1bi5qcyJdLCJuYW1lcyI6WyJtIiwibW9kdWxlIiwiYXBwbGljYXRpb24iLCJtb2R1bGVzIl0sIm1hcHBpbmdzIjoiOztBQUFBOztBQUNBOztBQUVBLE1BQU1BLENBQUMsR0FBRyxrQ0FBYUMsWUFBYixDQUFWO0FBQ0EsTUFBTUMsV0FBVyxHQUFHLHVDQUFrQjtBQUFFQyxFQUFBQSxPQUFPLEVBQUUsQ0FBQ0gsQ0FBRDtBQUFYLENBQWxCLENBQXBCIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IHsgY3JlYXRlQXBwbGljYXRpb24sIGNyZWF0ZU1vZHVsZSwgQ09OVEVYVCwgTU9EVUxFX0lEIH0gZnJvbSAnZ3JhcGhxbC1tb2R1bGVzJztcbmltcG9ydCB7IG1vZHVsZSwgVGVzdCwgVGVzdDIgfSBmcm9tICcuL3Rlc3QnO1xuXG5jb25zdCBtID0gY3JlYXRlTW9kdWxlKG1vZHVsZSk7XG5jb25zdCBhcHBsaWNhdGlvbiA9IGNyZWF0ZUFwcGxpY2F0aW9uKHsgbW9kdWxlczogW21dIH0pO1xuIl19

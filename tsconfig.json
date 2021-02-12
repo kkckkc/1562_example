@@ -1,0 +1,42 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "newLine": "LF",
+    "outDir": "dist",
+    "rootDir": ".",
+    "allowJs": true,
+    "target": "es2016",
+    "sourceMap": true,
+    "declaration": true,
+    "declarationMap": true,
+    "incremental": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "jsx": "preserve",
+    "lib": [
+      "esnext",
+      "dom"
+    ],
+    "strict": true,
+    "noEmit": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true,
+    "skipLibCheck": false,
+    "baseUrl": ".",
+    "composite": true
+  },
+  "exclude": [
+    ".git",
+    "node_modules",
+    "**/output/**/*.js",
+    "babel.config.js",
+    "webpack.*.js"
+  ],
+  "include": [
+    "*"
+  ]
+}
